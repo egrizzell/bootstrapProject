@@ -10,7 +10,7 @@
 
 
     <!-- Bootstrap core CSS -->
-    <link href="C:\Files\Documents\School\Semster 3 Fall 17\Software_Engineering\BootstrapProject\assignment2-softwareengineering\css\bootstrap.css" rel="stylesheet">
+    <link href="css\bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
