@@ -20,8 +20,9 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
     <!-- Custom styles for this template -->
-    <link href="styles.css" rel="stylesheet">
     <link href="css/agency.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    
   </head>
 
   <body id=page-top>
@@ -44,15 +45,15 @@
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+            <a class="nav-link dropdown-toggle" href="https://thecgc.herokuapp.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Medical CME</a>
-              <a class="dropdown-item" href="#">Vineyards/Breweries</a>
-              <a class="dropdown-item" href="#">Educators</a>
-              <a class="dropdown-item" href="#">Businesses</a>
-              <a class="dropdown-item" href="#">RGV Community</a>
-              <a class="dropdown-item" href="#">Educators</a>
-              <a class="dropdown-item" href="#">General Public</a>
+              <a class="dropdown-item" data-toggle="modal" href="#portfolioModal1">Medical CME</a>
+              <a class="dropdown-item" data-toggle="modal" href="#portfolioModal2">Vineyards/Breweries</a>
+              <a class="dropdown-item" data-toggle="modal" href="#portfolioModal3">Educators</a>
+              <a class="dropdown-item" data-toggle="modal" href="#portfolioModal4">Businesses</a>
+              <a class="dropdown-item" data-toggle="modal" href="#portfolioModal5">RGV Community</a>
+              <a class="dropdown-item" data-toggle="modal" href="#portfolioModal6">Educators</a>
+              <a class="dropdown-item" data-toggle="modal" href="#portfolioModal7">General Public</a>
             </div>
           </li>
         </ul>
@@ -108,7 +109,7 @@
                     </a>
                     <div class="portfolio-caption">
                         <h4>Alcohol Industry</h4>
-                        <p class="text-muted">Vineyards/Breweries</p>
+                        <p class="text-center text-muted">Vineyards/Breweries</p>
                     </div>
                 </div>
                 <div class="col-md-2 col-sm-6 portfolio-item">
@@ -764,10 +765,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
-    
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <!-- Contact form JavaScript -->
